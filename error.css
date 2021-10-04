@@ -82,3 +82,15 @@
 .SYG102:nth-of-type(1) { margin-top: -30px; margin-left: 30px; }
 .SYG102:nth-of-type(2) { margin-top: -15px; margin-left: 15px; }
 
+.kdhn {   
+  width: 30px; 
+  height: 15px; 
+  cursor: wait;
+  background: #e7e5ef; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font: 10px tahoma;
+  margin-top: 5px;
+  filter: drop-shadow(1px 1px 0 #bcb2be) drop-shadow(-1px -1px 0 #9a9fb1);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px, rgba(0, 0, 0, 0.3) 0px 1px 2px -2px; }
