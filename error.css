@@ -9,7 +9,7 @@
   filter: drop-shadow(2px 2px 0 #bcb2be) drop-shadow(-2px -2px 0 #9a9fb1);
   box-shadow: /*rgba(131, 72, 223, 0.4) -5px -5px, rgba(131, 72, 223, 0.3) -10px -10px, rgba(131, 72, 223, 0.2) -15px -15px, rgba(131, 72, 223, 0.1) -20px -20px, rgba(131, 72, 223, 0.05) -25px -25px,*/ rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 3px -3px, rgba(0, 0, 0, 0.2) -3px -3px 0px inset; }
 
-.SYG101 { width: 250px; height: 140px; margin-top: 50px; }
+.SYG101 { width: 250px; height: 170px; margin-top: 50px; }
 
 .SYG104 { 
   width: 232px; 
@@ -91,6 +91,7 @@
   justify-content: center;
   align-items: center;
   font: 10px tahoma;
+  color: #181818;
   margin-top: 5px;
   filter: drop-shadow(1px 1px 0 #bcb2be) drop-shadow(-1px -1px 0 #9a9fb1);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px, rgba(0, 0, 0, 0.3) 0px 1px 2px -2px; }
