@@ -1,0 +1,85 @@
+.k-pod { 
+  width: 250px; 
+  height: 140px; 
+  cursor: wait;
+  background: #e7e5ef; 
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin-left: 50px; 
+  margin-top: 50px;
+  filter: drop-shadow(2px 2px 0 #bcb2be) drop-shadow(-2px -2px 0 #9a9fb1);
+  box-shadow: /*rgba(131, 72, 223, 0.4) -5px -5px, rgba(131, 72, 223, 0.3) -10px -10px, rgba(131, 72, 223, 0.2) -15px -15px, rgba(131, 72, 223, 0.1) -20px -20px, rgba(131, 72, 223, 0.05) -25px -25px,*/ rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 3px -3px, rgba(0, 0, 0, 0.2) -3px -3px 0px inset; }
+
+.k-pod-g { 
+  width: 232px; 
+  height: 30px; 
+  padding: 0 5px; 
+  background: #8348df; 
+  margin-top: 4px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  font-family: Tahoma; 
+  color: #fff; 
+  font-size: 15px; 
+  letter-spacing: 1px;  
+  box-shadow: inset 0 -1px #5d60b1, rgba(0, 0, 0, 0.25) 0px 1px 1px, rgba(0, 0, 0, 0.25) 0px 0.125em 0, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; }
+
+.k-pod-g x { 
+  background: #e7e5ef; 
+  width: 20px; 
+  height: 20px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  filter: drop-shadow(3px 3px 0 #735b97);
+  box-shadow: inset 2px 2px 0 #dcdae0, 2px 2px 1px #4e3a9c, -1px -1px 0 #eabaf5; 
+  cursor: pointer; 
+  color: #555555; 
+  font-size: 23px; 
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #4e3a9c30; } 
+
+.k-pod-sr { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  width: 220px; 
+  height: 100px; }
+
+.k-x { 
+  width: 50px; 
+  height: 50px; 
+  background: #8348df; 
+  border-radius: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 30px; 
+  color: #fff;
+  box-shadow: 2px 2px 0 #fff;
+}
+
+.k-op {
+  font-family: Tahoma; 
+  font-size: 12px;
+  width: 150px;
+}
+
+.k-pod1 { 
+  width: 250px; 
+  height: 140px; 
+  cursor: wait;
+  background: #e7e5ef; 
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin-left: 50px; 
+  margin-top: 50px;
+  filter: drop-shadow(2px 2px 0 #bcb2be) drop-shadow(-2px -2px 0 #9a9fb1);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 3px -3px, rgba(0, 0, 0, 0.2) -3px -3px 0px inset;
+  position: absolute; margin-top: -20px; margin-left: 65px;
+}
+
+.k-pod1:nth-of-type(2) { margin-top: -10px; margin-left: 30px; }
+.k-pod1:nth-of-type(4) { margin-top: -35px; margin-left: 35px; }
