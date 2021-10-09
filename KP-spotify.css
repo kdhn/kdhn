@@ -229,4 +229,6 @@ i.fas.fa-step-backward, i.fas.fa-step-forward { cursor: pointer; opacity: 1; fon
 [KP="112"]::-webkit-scrollbar-thumb, [KP="115"] div::-webkit-scrollbar-thumb { background-color: #ffffff50; border-radius:0px;}
 [KP="112"]::-webkit-scrollbar-track-piece, [KP="115"] div::-webkit-scrollbar-track-piece { background-color: transparent; -webkit-border-radius: 0px;}
 
+[credits] { color: #fff; font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-size: 9px; background: #000; padding: 3px 5px; width: 50px; text-align: center; margin: 40px 0 0 15px; border-radius: 5px; }
+
 @keyframes KPan { 0% { transform: scale(0, .025); } 50% { transform: scale(1, .025); } }
