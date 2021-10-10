@@ -121,11 +121,11 @@
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  background: linear-gradient(#ad967470, #744747); 
+  background: linear-gradient(#ad967470, #744747); /*KOLOR BUTTONU*/
   height: 35px; 
   cursor: pointer; 
   font-weight: 500; 
-  color: #333; 
+  color: #333; /*KOLOR FONTU BUTTONU*/
   font-family: poppins;
   transition: .50s ease-in-out;
 }
@@ -139,7 +139,7 @@
   -webkit-background-clip: text!important; 
   -webkit-text-fill-color: transparent!important;
   transition: .50s ease-in-out;
-  cursor: pointer; margin-top: -5px;
+  cursor: pointer; margin-top: -3px; height: 21px;
 } 
 
 [smile]:hover { transform: scale(1.1); transition: .50s ease-in-out; }
@@ -157,7 +157,7 @@
   right: 30px;
 }
 
-[SMS] { font-family: arial; font-size: 13px; width: 350px; padding: 15px; color: #000; }
+[SMS] { font-family: arial; font-size: 13px; width: 350px; padding: 15px; color: #000; /*KOLOR FONTÓW*/ }
 [SMS] br { display: none; }
 .SMS104 br, .SMS107 br { display: block; }
 
