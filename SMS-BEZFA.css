@@ -1,0 +1,168 @@
+[SMS="101"] { width: 400px; position: relative; }
+
+[SMS="102"] {
+  height: 30px; 
+  background: #999; /*KOLOR GÓRNEGO PASKA Z OKIENKAMI I PROFILÓWKĄ*/
+  border-radius: 15px 15px 0 0;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SMS103 { width: 40px; height: 40px; border-radius: 100%; position: relative; }
+
+.SMS103 img { width: 40px; height: 40px; object-fit: cover; border-radius: 100%; }
+
+.SMS103:before {
+  content: '';
+  position: absolute;
+  left: 27px;
+  bottom: -2px;
+  width: 7px; 
+  height: 7px; 
+  border-radius: 100%;
+  background: #91c066; /*KOLOR DOSTĘPNOŚCI NA GÓRZE*/
+  border: 3px solid #999;
+}
+
+[SMS="102"] > div:first-child { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  width: 130px; 
+}
+
+.SMS104 { font-size: 11px; line-height: 12px; }
+.SMS104 b { font-size: 13px; }
+
+[SMS="105"] {
+  min-height: 150px; 
+  background: linear-gradient(#999, #555); /*KOLOR TŁA CZĘŚCI Z WWIADOMOŚCIĄ I PROFILÓWKĄ*/
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+[SMS="105"] > div:first-child { width: 100%; text-align: center; padding: 20px 0; }
+
+.SMS106 {
+  width: 80px;
+  min-height: 100px;
+  display: flex; 
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.SMS106 img {
+  width: 80px;
+  height: 80px; 
+  object-fit: cover; 
+  border-radius: 100%;
+}
+
+.SMS106:before {
+  content: '';
+  position: absolute;
+  left: 50px;
+  bottom: -3px;
+  width: 13px; 
+  height: 13px; 
+  border-radius: 100%;
+  background: #91c066; /*KOLOR DOSTĘPNOŚCI NA DOLE*/
+  border: 4px solid #555;
+}
+
+.SMS107 {
+  background: linear-gradient(#ad9674, #744747); /*KOLOR WIADOMOŚCI*/
+  background-attachments: fixed;
+  width: 220px; 
+  min-height: 40px;
+  border-radius: 15px 15px 15px 3px;
+  padding: 20px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 16px;
+}
+
+[SMS="108"] {
+  background: #555; /*KOLOR DOLNEGO PASKA Z IKONKAMI*/
+  height: 30px;
+  border-radius: 0 0 15px 15px;
+  display: flex; 
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+[SMS="108"] textarea { 
+  display: inherit; 
+  border-radius: 25px; 
+  border: none;
+  background: #6c6c6c; /*KOLOR DOLNEGO OKIENKA DO WPISYWANIA TEKSTU*/
+  display: flex; 
+  align-items: center;
+  padding: 10px; 
+  height: 15px;
+  font-family: arial;
+  width: 220px;
+  transition: .50s ease-in-out; position: relative; 
+}
+
+[SMS="108"] textarea:focus { width: 330px; transition: .50s ease-in-out; }
+
+[SMS="108"] button { 
+  display: inherit; 
+  border-radius: 25px; 
+  border: none; 
+  padding: 5px; 
+  width: 70px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background: linear-gradient(#ad967470, #744747); 
+  height: 35px; 
+  cursor: pointer; 
+  font-weight: 500; 
+  color: #333; 
+  font-family: poppins;
+  transition: .50s ease-in-out;
+}
+
+[SMS="108"] button:hover { filter: contrast(1.3); transition: .50s ease-in-out; }
+[SMS="108"] button:focus { filter: contrast(1.3); transition: .50s ease-in-out; transform: scale(0.95); }
+
+[smile] { 
+  font-size: 30px; 
+  background: linear-gradient(#c4ae3d, #c7901b); /*KOLOR EMOTIKONY*/
+  -webkit-background-clip: text!important; 
+  -webkit-text-fill-color: transparent!important;
+  transition: .50s ease-in-out;
+  cursor: pointer; margin-top: -5px;
+} 
+
+[smile]:hover { transform: scale(1.1); transition: .50s ease-in-out; }
+
+[SMS="105"] > div:nth-child(4) {
+  background: #555;
+  width: 30px; 
+  height: 30px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 100px;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
+[SMS] { font-family: arial; font-size: 13px; width: 350px; padding: 15px; color: #000; }
+[SMS] br { display: none; }
+.SMS104 br, .SMS107 br { display: block; }
+
+button.credits { display: inherit; border: none; font: 10px poppins; font-weight: 800; background: #181818; color: #7e7e7e; width: 15px; height: 50px; display: flex; justify-content: center; align-items: center; border-radius: 30px; letter-spacing: -0.5px; position: absolute; top: 70px; right: -22px; transition: .40s ease-in-out; cursor: pointer; padding: 5px; line-height: 10px; transform: scale(0.8); }
+
+button.credits:focus { height: 15px; width: 40px; font-weight: 500; transition: .40s ease-in-out; transform: scale(1); }
+
+/*KDHN - 2021*/
