@@ -28,6 +28,6 @@ font: 600 20px poppins; text-transform: uppercase; text-align: center; margin-to
 
 [moripod]:hover e { margin-left: 65px; transition: 1s ease-in-out; padding: 5px; }
 
-[moripod] > div > y { opacity: 0; transition: 1s ease-in-out; margin-right: -150px; text-align: right;}
+[moripod] > div > y { opacity: 0; transition: 1s ease-in-out; margin-right: -150px; text-align: right; }
 
 [moripod]:hover y { opacity: 1; transition: 1s ease-in-out; margin-right: 65px; padding-left: 30px; }
