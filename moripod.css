@@ -1,0 +1,33 @@
+[moripod] {
+  background-image: url(https://i.imgur.com/Gc1M54h.png);
+  width: 500px;
+  height: 165px; transition: 1s ease-in-out; 
+  padding: 15px 0; margin: auto;overflow: hidden;position: relative;
+} 
+
+c::before { content: 'IN HERE WITH Me'; position: absolute; display: block; width: 100%; opacity: 1; top:0; font-size: 40px; left: 50%; transform: translateX(-50%); mix-blend-mode: soft-light;}
+
+[moripod]:hover::before {left: 40px;transition: 1s ease-in-out;}
+[moripod]:hover::after {right: 40px;transition: 1s ease-in-out;}
+
+[moripod]::before { content: ''; display: block; width: 20px; height: 165px; position: absolute; background: #101010; top: 0; left: 100px; transition: 1s ease-in-out; z-index: 5;}
+
+[moripod]::after { content: ''; display: block; width: 20px; height: 165px; position: absolute; background: #101010; top: 0; right: 100px; transition: 1s ease-in-out;}
+
+[moripod] > div { margin: auto; display: flex; flex-wrap: wrap; justify-content: center; width: 500px; font: 300 13px calibri; line-height: 13px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+
+[moripod] > div > y, [moripod] > div > e { padding: 5px; backdrop-filter: contrast(1.05) grayscale(1); background: #10101075; display: block; } 
+
+[moripod]:hover { background-image: url(https://i.imgur.com/QbTYTwF.png); transition: 1s ease-in-out; }
+
+[moripod] > div > c {
+font: 600 20px poppins; text-transform: uppercase; text-align: center; margin-top: 5px ; display: block; line-height: 20px; width: 100%; letter-spacing: 2px; color: #8888888c; height: 20px; position: relative; background: #101010;overflow: hidden;
+}
+
+[moripod] > div > e { margin-left: 15px; transition: 1s ease-in-out; padding: 5px 40px 0 42px;}
+
+[moripod]:hover e { margin-left: 65px; transition: 1s ease-in-out; padding: 5px; }
+
+[moripod] > div > y { opacity: 0; transition: 1s ease-in-out; margin-right: -150px; text-align: right; }
+
+[moripod]:hover y { opacity: 1; transition: 1s ease-in-out; margin-right: 65px; padding-left: 30px; }
