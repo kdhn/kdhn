@@ -1,7 +1,7 @@
 [moripod] {
   background-image: url(https://i.imgur.com/Gc1M54h.png);
   width: 500px;
-  height: 135px; transition: 1s ease-in-out; 
+  height: 165px; transition: 1s ease-in-out; 
   padding: 15px 0; margin: auto;overflow: hidden;position: relative;
 } 
 
