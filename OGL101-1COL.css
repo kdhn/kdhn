@@ -1,7 +1,3 @@
-[OGL101] cred a:hover { 
-  color: black; 
-  transition: .5s ease-in-out; } 
-
 [OGL101] { 
   position: relative; 
   color: lightgray; } 
@@ -197,5 +193,10 @@
   font: 700 20px poppins; } 
 
 [OGL101] cred a { 
-  color: white; 
+  color: white; text-shadow: 2px 2px 0 #000000ad; letter-spacing: -1px;
   transition: .5s ease-in-out; } 
+
+[OGL101] cred a:hover { 
+  color: black; 
+  transition: .5s ease-in-out; } 
+
