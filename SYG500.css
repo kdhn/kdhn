@@ -1,0 +1,19 @@
+.SYG500 { border-radius: 15px; position: relative; font: 400 12px poppins; text-align: center; display: flex; align-items: center; justify-content: center; overflow: hidden; resize: both; min-width: 300px; min-height: 220px; width: 500px; height: 200px; }
+
+.SYG500 > div { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; align-content: center; backdrop-filter: blur(5px) brightness(0.8); width: 80%; height: max-content; padding: 20px 20px; border-radius: 15px; }
+
+.SYG500 span:first-of-type { display: block; width: 100%; font: 700 30px poppins; }
+
+.SYG500 span:last-of-type { width: 95%; line-height: 14px; }
+
+.SYG500 input { width: 73%; background: #0000005e; border: 1px solid white; padding: 5px 15px; border-radius: 15px; font: 400 12px poppins; color: white; backdrop-filter: brightness(0.5); margin-right: 10px; }
+
+.SYG500 button { font: 500 11px poppins; border: none; border-radius: 15px; width: 15%; padding: 6px 0; cursor: pointer; min-width: 50px; }
+
+.SYG500 button:focus { transform: scale(0.9); }
+
+.SYG500 > div > div { width: 95%; display: flex; justify-content: space-between; align-items: center; margin-top: 20px;}
+
+.SYG500 .credits { display: block; text-decoration: none; position: absolute; bottom: 0px; left: 0; width: 100%; font: 400 11px poppins; line-height: 8px; }
+
+.SYG500 .credits b { font-weight: 700; }
