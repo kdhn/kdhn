@@ -1,0 +1,77 @@
+.SYG300 { 
+  position: relative; 
+  width: 520px; 
+  height: 300px;  
+  border-radius: 30px 0 0 30px; 
+  overflow: hidden; }
+
+.SYG300::before { 
+  content: ''; 
+  width: 300px; 
+  height: 300px; 
+  clip-path: polygon(100% 0, 0 50%, 100% 100%); 
+  position: absolute; 
+  right: 20px; 
+  top: 0; 
+  z-index: 2; } 
+
+.SYG300::after { 
+  content: '';
+  width: 50px; 
+  height: 50px; 
+  clip-path: polygon(100% 0, 0 50%, 100% 100%); 
+  position: absolute; 
+  top: 245px; 
+  right: 210px; }
+
+.SYG302 { 
+  clip-path: polygon(0 0, 0% 100%, 100% 50%); 
+  position: absolute; 
+  background: #c5c5c5; 
+  width: 150px; 
+  height: 150px; 
+  top: 145px; 
+  left: 160px; } 
+
+.SYG302 img { 
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; }
+
+.SYG301 { 
+  font: 400 20px poppins; 
+  font-size: 13px; 
+  z-index: 3; 
+  width: 200px; 
+  position: absolute; 
+  top: 30px; 
+  left: 30px; 
+  line-height: 15px; } 
+
+.SYG301 > span { 
+  font-weight: 700; 
+  font-size: 25px;
+  display: block; 
+  margin-bottom: 10px; } 
+
+.SYG301 a { 
+  display: block; 
+  margin-top: 20px;
+  text-transform: uppercase; 
+  font-weight: 700; 
+  text-decoration: none; 
+  border-bottom: 1px solid currentColor; 
+  width: max-content; }
+
+.SYG300 .credits { 
+  position: absolute; 
+  right: 0; 
+  display: block; 
+  font: 400 13px poppins;
+  writing-mode: vertical-lr;
+  z-index: 1; 
+  height: 100%; 
+  text-decoration: none; 
+  padding-top: 10px; }
+
+.SYG300 .credits b { font-weight: 700; }
