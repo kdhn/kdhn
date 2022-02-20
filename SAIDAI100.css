@@ -1,0 +1,82 @@
+.SAIDAI100 {
+  background: url(https://i.imgur.com/6Gbmt6V.png);
+  text-align: center;
+  font: 400 18px poppins;
+  line-height: 18px;
+  width: 500px;
+  height: 250px;
+  margin: auto;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  overflow: hidden;
+  color: #b3b3b3;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  z-index: 5;
+}
+
+.SAIDAI100::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #0c0c0c, transparent);
+}
+
+.SAIDAI100 > span {
+  background: linear-gradient(90deg, #8b8b8b, #f5eeed);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text!important;
+  width: max-content;
+  display: block;
+}
+
+.SAIDAI100 > span:first-of-type {
+  opacity: 1;
+  transition: .5s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(1) translate(-50%, -110%);
+}
+
+.SAIDAI100:hover > span:first-of-type {
+  opacity: 0;
+  transform: scale(0) translate(-100%, -100%);
+  transition: .5s ease-in-out; 
+}
+
+.SAIDAI100 > span:last-of-type {
+  transform: scale(0) translate(-50%, -110%);
+  opacity: 1;
+  transition: .5s ease-in-out;
+}
+
+.SAIDAI100:hover > span:last-of-type {
+  transform: scale(1) translate(0%, -60%);
+  opacity: 1;
+  transition: .5s ease-in-out;
+}
+
+.SAIDAI101 {
+  background: #0c0c0c;
+  width: 500px;
+  margin: auto;
+  height: 180px;
+  position: relative;
+}
+
+.SAIDAI101::before {
+  content: '';
+  background: #0c0c0c;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -100px;
+  width: 300px;
+  height: 150px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
