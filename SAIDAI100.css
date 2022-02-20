@@ -62,7 +62,7 @@
 }
 
 .SAIDAI101 {
-  background: #0c0c0c;
+  background: #0e0e0e;
   width: 500px;
   margin: auto;
   height: 180px;
@@ -71,7 +71,7 @@
 
 .SAIDAI101::before {
   content: '';
-  background: #0c0c0c;
+  background: #0e0e0e;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
