@@ -70,7 +70,7 @@
 
 .SAIDAI101::before {
   content: '';
-  background: linear-gradient(0deg, #0a0a0a, transparent);
+  background: linear-gradient(0deg, #161616, transparent);
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
