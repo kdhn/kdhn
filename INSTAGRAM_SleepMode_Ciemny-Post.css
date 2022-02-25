@@ -1,0 +1,99 @@
+.INST200 {
+    max-width: 400px;
+    min-height: 300px; 
+    background: var(--INST-clr-gray);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    color: var(--INST-clr-textone);
+    overflow: hidden;
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.INST202 {
+    width: 100%;
+    height: 70px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background: var(--INST-clr-lightgray);
+}
+
+.INST202 > span { cursor: pointer; transition: .3s ease-in-out; }
+.INST202 > span:hover { transform: scale(1.2); transition: .3s ease-in-out;  }
+
+.INST202 span:nth-of-type(3), .INST203 > div::before {
+    background: var(--INST-gradient);
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    top: -20px;
+}
+
+.INST202 span:nth-of-type(5) { position: relative; }
+
+.INST202 span:nth-of-type(5)::before {
+    content: '';
+    position: absolute; 
+    border-radius: 50%;
+    background: var(--INST-clr-purple);
+    width: 7px;
+    height: 7px;
+    right: 1px;
+    top: 1px;
+}
+
+.INST203 { padding-bottom: 30px; }
+
+.INST203 > div:first-of-type { position: relative; }
+
+.INST203 img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 0 30px 30px;
+}
+
+.INST203 > div::before {
+    content: '\e87e';
+    font-family: 'Material Icons';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 11px 10px;
+    cursor: pointer;
+    top: auto;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+
+.INST203 > div:hover::before {
+    content: '\e87d';
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
+.INST203 > span { display: block; margin: 0 20px; }
+.INST203 > span:first-of-type { font-weight: 600; margin-bottom: 10px; margin-top: 20px; }
+.INST203 > span:nth-of-type(3) { opacity: .5; color: var(--INST-clr-text); cursor: pointer; }
+
+.INST200CRED {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background: var(--INST-gradient);
+    opacity: 0.2;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.INST200CRED:hover { opacity: 1; }
+.INST203 > a:visited, .INST200 > a:visited { color: #fff; }
+.INST200 br { display: none; }
+.INST203 > span:nth-of-type(2) br { display: block; }
