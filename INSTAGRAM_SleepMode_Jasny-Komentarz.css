@@ -1,0 +1,75 @@
+/*KDHN 2022*/
+
+.INST300 {
+    max-width: 420px;
+    min-height: 50px; 
+    background: var(--INST-clr-white);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    color: var(--INST-clr-textone);
+    overflow: hidden;
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    line-height: 19px;
+}
+
+.INST300 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.INST300 > span:first-of-type {
+    width: 75%;
+    margin-left: 15px;
+}
+
+.INST300 > span:nth-of-type(2) {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 65px;
+    opacity: .8;
+    color: var(--INST-clr-texttwo);
+}
+
+.INST300 > span:nth-of-type(2) b {
+    font-weight: 500;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.INST300::after {
+    content: '\e87e';
+    font-family: 'Material Icons';
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    font-size: 20px;
+}
+
+.INST300CRED {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: max-content;
+    height: 100%;
+    background: var(--INST-gradient);
+    opacity: 0.1;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-rl;
+}
+
+.INST300CRED:hover { opacity: 1; }
+.INST303 > a:visited, .INST300 > a:visited { color: black; }
+.INST300 br { display: none; }
+.INST300 > span:first-of-type br { display: block; }
