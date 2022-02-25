@@ -1,12 +1,3 @@
-/*:root {
-    --INST-clr-gray: #222128; /*TŁO*/
-    --INST-clr-purple: #7e5a81; /*PIERWSZY KOLOR GRADIENTU*/
-    --INST-clr-blue: #568cbb; /*DRUGI KOLOR GRADIENTU*/
-    --INST-clr-lightgray: #36353c; /*KOLOR BELEK*/
-    --INST-clr-textone: #cdcdcd; /*KOLOR TEKSTU*/
-    --INST-clr-texttwo: #8c899b; /*KOLOR TEKSTU*/
-    --INST-gradient: linear-gradient(45deg, var(--INST-clr-purple), var(--INST-clr-blue)); /*GRADIENT*/
-}*/
 
 .INST100 {
     max-width: 440px;
@@ -125,10 +116,6 @@
     opacity: .5;
     font-size: 14px;
 }
-
-/*.INST104 > b:first-of-type::after { content: 'Post'; /*LICZBA POSTÓW*/ }
-.INST104 > b:nth-of-type(2)::after { content: 'Followers'; /*LICZBA OBSERWATORÓW*/ }
-.INST104 > b:last-of-type::after { content: 'Following'; /*LICZBA OBSERWOWUJĄCYCH*/ }*/
 
 .INST103 > span, .INST103 > a { width: 100%; text-align: left; padding-left: 30px; margin-top: 10px; font-size: 15px; }
 
