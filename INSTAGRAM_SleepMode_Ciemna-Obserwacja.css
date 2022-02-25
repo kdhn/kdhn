@@ -1,0 +1,64 @@
+/*KDHN 2022*/
+
+.INST400 {
+    max-width: 420px;
+    min-height: 50px; 
+    background: var(--INST-clr-gray);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    color: var(--INST-clr-textone);
+    overflow: hidden;
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    line-height: 19px;
+    align-items: center;
+}
+
+.INST400 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.INST400 > span {
+    width: 58%;
+    margin-left: 15px;
+}
+
+.INST400::after {
+    content: 'Follow';
+    position: absolute;
+    right: 30px;
+    font-size: 14px;
+    background: var(--INST-gradient);
+    padding: 5px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.INST400CRED {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: max-content;
+    height: 100%;
+    background: var(--INST-gradient);
+    opacity: 0.1;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-rl;
+}
+
+.INST400CRED:hover { opacity: 1; }
+.INST403 > a:visited, .INST400 > a:visited { color: #fff; }
+.INST400 br { display: none; }
