@@ -1,0 +1,246 @@
+:root {
+    --INST-clr-gray: #222128; /*TŁO*/
+    --INST-clr-purple: #7e5a81; /*PIERWSZY KOLOR GRADIENTU*/
+    --INST-clr-blue: #568cbb; /*DRUGI KOLOR GRADIENTU*/
+    --INST-clr-lightgray: #36353c; /*KOLOR BELEK*/
+    --INST-clr-textone: #cdcdcd; /*KOLOR TEKSTU*/
+    --INST-clr-texttwo: #8c899b; /*KOLOR TEKSTU*/
+    --INST-gradient: linear-gradient(45deg, var(--INST-clr-purple), var(--INST-clr-blue)); /*GRADIENT*/
+}
+
+.INST100 {
+    max-width: 440px;
+    min-height: 900px; 
+    background: var(--INST-clr-gray);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    color: var(--INST-clr-textone);
+    overflow: hidden;
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.INST101 {
+    font: 600 17px barlow;
+    position: relative;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 40px 0;
+}
+
+.INST101::after, .INST101::before {
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Material Icons';
+    position: absolute;
+}
+
+.INST101::after { content: '\e5d3'; right: 30px; }
+
+.INST101::before { content: '\e5c4'; left: 30px; }
+
+.INST102 {
+    width: 100%;
+    height: 70px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background: var(--INST-clr-lightgray);
+}
+
+.INST102 > span { cursor: pointer; transition: .3s ease-in-out; }
+.INST102 > span:hover { transform: scale(1.2); transition: .3s ease-in-out;  }
+
+.INST102 span:nth-of-type(3), .INST105 span::before {
+    background: var(--INST-gradient);
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    top: -20px;
+}
+
+.INST102 span:nth-of-type(5) { position: relative; }
+
+.INST102 span:nth-of-type(5)::before {
+    content: '';
+    position: absolute; 
+    border-radius: 50%;
+    background: var(--INST-clr-purple);
+    width: 7px;
+    height: 7px;
+    right: 1px;
+    top: 1px;
+}
+
+.INST103 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.INST103 > div:first-of-type {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-left: 26px;
+}
+
+.INST103 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    min-width: 80px;
+}
+
+.INST104 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    background: var(--INST-clr-lightgray);
+    height: 80px; 
+    width: 310px;
+    border-radius: 15px 0 0 15px;
+}
+
+.INST104 > b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 19px;
+}
+
+.INST104 > b::after {
+    position: relative;
+    margin-top: 7px;
+    font-weight: 300;
+    opacity: .5;
+    font-size: 14px;
+}
+
+.INST104 > b:first-of-type::after { content: 'Post'; /*LICZBA POSTÓW*/ }
+.INST104 > b:nth-of-type(2)::after { content: 'Followers'; /*LICZBA OBSERWATORÓW*/ }
+.INST104 > b:last-of-type::after { content: 'Following'; /*LICZBA OBSERWOWUJĄCYCH*/ }
+
+.INST103 > span, .INST103 > a { width: 100%; text-align: left; padding-left: 30px; margin-top: 10px; font-size: 15px; }
+
+.INST103 > span:first-of-type { margin-top: 30px; font-weight: 500; font-size: 19px; }
+.INST103 > span:nth-of-type(2) { color: var(--INST-clr-texttwo); padding-right: 20px; }
+
+.INST103 > a { text-decoration: none; color: white; opacity: .2; width: max-content; }
+
+.INST105 { 
+    display: flex;  
+    align-items: center; 
+    width: max-content; 
+    margin: 30px 0 0 20px;
+    flex-direction: column;
+}
+
+.INST105 img, .INST105 span { 
+    min-width: auto; 
+    width: 65px; 
+    height: 65px; 
+    border: 1px solid var(--INST-clr-purple); 
+    padding: 5px; 
+    margin: 0; 
+}
+
+.INST105 span { 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    z-index: 1;
+    transition: .5s ease-in-out;
+} 
+
+.INST105 * { margin: 0 10px!important; cursor: pointer; }
+
+.INST105 > div { width: max-content; display: flex; margin: 0 -5px!important; }
+
+.INST105 span::before {
+    width: 65px;
+    height: 65px;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: auto;
+    padding: 0;
+}
+
+.INST105 b {
+    width: 77px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--INST-clr-texttwo);
+    margin-top: 5px!important;
+}
+
+.INST105 span:hover { transform: scale(1.1); transition: .5s ease-in-out; }
+
+.INST106 { display: flex; width: 100%; }
+
+.INST106 > div, .INST106 > span {
+    background: var(--INST-gradient);
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 30px 0 0 20px;
+    width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.INST106 > span {
+    width: 60px;
+    margin-right: 20px;
+    max-width: 60px;
+    padding: 0;
+    min-width: 60px;
+}
+
+.INST107 {
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 270px;
+    overflow: hidden;
+}
+
+.INST107 img {
+    margin: 2px 0;
+    width: 32.5%;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.INST100CRED {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background: var(--INST-gradient);
+    opacity: 0.2;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.INST100CRED:hover { opacity: 1; }
+.INST103 > a:visited, .INST100 > a:visited { color: #fff; }
+.INST100 br { display: none; }
+.INST103 > span:nth-of-type(2) br { display: block; }
