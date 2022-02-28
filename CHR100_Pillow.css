@@ -1,0 +1,124 @@
+.CHR100 {
+    width: 550px; 
+    min-height: 200px;
+    border-radius: 40px;
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px 50px 0;
+    font: 12px barlow;
+    overflow: hidden;
+    margin: auto;
+}
+
+.CHR100 br { display: none; } 
+
+.CHR100 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.CHR100 > div:first-of-type {
+    background: var(--CHR100-gradient);
+    width: 210px;
+    height: 210px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 60px;
+    position: relative;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.CHR100::before {
+    content: '';
+    width: 650px; 
+    height: 450px;
+    border-radius: 50%;
+    position: absolute;
+    background: var(--CHR100-gradient);
+    top: -180px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.CHR100::after {
+    content: '';
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    border-radius: 50%;
+    top: -450px;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.CHR101 {
+    position: relative;
+    width: 400px;
+}
+
+.CHR101::before {
+    content: '';
+    height: 120%;
+    width: 1px;
+    background: linear-gradient(0deg, currentColor, white);
+    position: absolute;
+    left: -10px;
+    top: -20%;
+}
+
+.CHR101::after {
+    content: '\e5cf';
+    bottom: -10px;
+    left: -22px;
+    font-family: 'Material Icons';
+    font-size: 25px;
+    position: absolute;
+}
+
+.CHR101 opis {
+    position: relative;
+    display: block;
+    margin: 20px 5px 20px 20px; 
+    text-align: justify;
+    width: 400px;
+}
+
+.CHR101 opis br { display: block; } 
+
+.CHR101 opis::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: currentColor;
+    border: 5px solid white;
+}
+
+.CHR100CRED {
+    font: 200 11px barlow;
+    position: absolute;
+    bottom: 5px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    mix-blend-mode: difference;
+    opacity: .5;
+}
