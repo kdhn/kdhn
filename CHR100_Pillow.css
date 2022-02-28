@@ -96,7 +96,7 @@
 .CHR101 opis::before {
     content: '';
     position: absolute;
-    left: -40px;
+    left: -39.5px;
     top: 0;
     width: 10px;
     height: 10px;
