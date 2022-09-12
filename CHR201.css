@@ -75,9 +75,7 @@
   margin: 10px; 
   justify-content: space-between; } 
 
-.CHR202 > div { margin-right: 10px; flex: 1; } 
-
-.CHR201 > .CHR202:nth-of-type(3n) { min-width: 90%; } 
+.CHR202 > div { margin-right: 10px; flex: 1; }  
 
 .CHR202 > div > div { 
   display: flex; 
@@ -130,6 +128,7 @@
   font: 400 12px poppins; 
   letter-spacing: 1px; 
   max-width: 25px; 
+  border: 1px solid currentColor;
   writing-mode: vertical-rl; 
   text-orientation: mixed; 
   justify-content: space-between; 
