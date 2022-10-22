@@ -93,7 +93,7 @@
 }
 
  .REL100 > .REL:hover p {
-    top: 0;
+    top: 13px;
     transition: .5s ease-in-out;
     transition-delay: .2s; 
  }
@@ -134,8 +134,8 @@
 
  .REL100 > .REL p {
     display: block;
-    width: calc(100% - 24px);
-    height: 217px;
+    width: 100px;
+    height: 100px;
     overflow: auto;
     padding: 10px 10px;
     border-radius: 10px;
