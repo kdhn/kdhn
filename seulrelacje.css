@@ -237,6 +237,7 @@
     transition: .5s ease-in-out;
     transition-delay: .2s; 
     outline: 1px solid #f1f1f1;
+     overflow-x: hidden;
 }
 
 .REL100 > .REL .level {
