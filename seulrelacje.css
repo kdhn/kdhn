@@ -8,9 +8,9 @@
 
 /*CIEMNA WERSJA*/
 
-#bh-posts-main.REL100 { background: linear-gradient(134deg, #3e393d, #262426); }
+#bh-posts-main .REL100 { background: linear-gradient(134deg, #3e393d, #262426); }
 
-#bh-posts-main.REL100 .deco2 { 
+#bh-posts-main .REL100 .deco2 { 
   box-shadow: 
     -5px -5px 10px var(--drel-light), 
     5px 5px 10px var(--drel-dark), 
@@ -19,7 +19,7 @@
   border: 1px solid var(--drel-light); 
 }
 
-#bh-posts-main.REL100 input.idk[type="checkbox"] { 
+#bh-posts-main .REL100 input.idk[type="checkbox"] { 
   box-shadow: 
     -5px -5px 10px var(--drel-light), 
     5px 5px 10px var(--drel-dark), 
@@ -28,18 +28,18 @@
   outline: 1px solid var(--drel-light); 
 }
 
-#bh-posts-main.REL100 input.idk[type="checkbox"]::before { 
+#bh-posts-main .REL100 input.idk[type="checkbox"]::before { 
   background: linear-gradient(45deg, #a7a7a7, #787878); 
   box-shadow: 
     -3px -3px 7px var(--drel-light), 
     3px 3px 7px var(--drel-dark); 
 }
 
-#bh-posts-main.REL100 input.idk[type="checkbox"]:checked::before { background: linear-gradient(45deg, #543838, #6ca1b7);}
+#bh-posts-main .REL100 input.idk[type="checkbox"]:checked::before { background: linear-gradient(45deg, #543838, #6ca1b7);}
 
-#bh-posts-main.REL100 input.nwm[type="checkbox"] { box-shadow: -5px -5px 10px #42434a, 5px 5px 10px rgb(0 0 0 / 16%); animation: ohnobutdark 3s infinite; }
+#bh-posts-main .REL100 input.nwm[type="checkbox"] { box-shadow: -5px -5px 10px #42434a, 5px 5px 10px rgb(0 0 0 / 16%); animation: ohnobutdark 3s infinite; }
 
-#bh-posts-main.REL100 input.nwm[type="checkbox"]:checked { 
+#bh-posts-main .REL100 input.nwm[type="checkbox"]:checked { 
   animation: none; 
   box-shadow: 
     -20px -20px 20px 0 #463f4557, 
@@ -47,17 +47,17 @@
     inset 4px 4px 6px 0 var(--drel-light); 
 }
 
-#bh-posts-main.REL100 input.nwm[type="checkbox"]:before { box-shadow: -5px -5px 10px var(--drel-light), 5px 5px 10px var(--drel-dark); }
+#bh-posts-main .REL100 input.nwm[type="checkbox"]:before { box-shadow: -5px -5px 10px var(--drel-light), 5px 5px 10px var(--drel-dark); }
 
-#bh-posts-main.REL100 input.nwm[type="checkbox"]:checked::after { color: #594e53; }
+#bh-posts-main .REL100 input.nwm[type="checkbox"]:checked::after { color: #594e53; }
 
-#bh-posts-main.REL100 > span { background: linear-gradient(45deg, #543838, #6ca1b7); -webkit-text-fill-color: transparent; -webkit-background-clip: text; }
+#bh-posts-main .REL100 > span { background: linear-gradient(45deg, #543838, #6ca1b7); -webkit-text-fill-color: transparent; -webkit-background-clip: text; }
 
-#bh-posts-main.REL100 > .REL > div { border: 10px solid transparent; box-shadow: -5px -5px 10px var(--drel-light-dif), 5px 5px 10px var(--drel-dark); }
+#bh-posts-main .REL100 > .REL > div { border: 10px solid transparent; box-shadow: -5px -5px 10px var(--drel-light-dif), 5px 5px 10px var(--drel-dark); }
 
-#bh-posts-main.REL100 > .REL a { box-shadow: -5px -5px 10px var(--drel-light-dif), 5px 5px 10px var(--drel-dark); color: #787b83; }
+#bh-posts-main .REL100 > .REL a { box-shadow: -5px -5px 10px var(--drel-light-dif), 5px 5px 10px var(--drel-dark); color: #787b83; }
 
-#bh-posts-main.REL100 > .REL p { 
+#bh-posts-main .REL100 > .REL p { 
   box-shadow: 
     inset -10px -10px 15px var(--drel-light-dif), 
     inset 10px 10px 15px var(--drel-dark); 
@@ -65,7 +65,7 @@
   outline: 1px solid var(--drel-light-dif); 
 }
 
-#bh-posts-main.REL100 > .REL .level { 
+#bh-posts-main .REL100 > .REL .level { 
   box-shadow: 
     -5px -5px 10px var(--drel-light-dif), 
     5px 5px 10px var(--drel-dark), 
@@ -74,11 +74,11 @@
   outline: 1px solid var(--drel-light-dif); 
 }
 
-#bh-posts-main.REL100 > .REL .level japierdole { background: linear-gradient(45deg, #a7a7a7, #787878); }
+#bh-posts-main .REL100 > .REL .level japierdole { background: linear-gradient(45deg, #a7a7a7, #787878); }
 
-#bh-posts-main.REL100 > .REL p::-webkit-scrollbar-thumb {background: #54555c; border-radius: 5px; border: 2px solid #3a3539; }
+#bh-posts-main .REL100 > .REL p::-webkit-scrollbar-thumb {background: #54555c; border-radius: 5px; border: 2px solid #3a3539; }
 
-#bh-posts-main.REL100 *::selection { background: #80848d; color: #343134; }
+#bh-posts-main .REL100 *::selection { background: #80848d; color: #343134; }
 
 
 @keyframes ohnobutdark {
@@ -141,7 +141,7 @@
     flex-wrap: wrap;
     border-radius: 20px;
     font: 12px poppins;
-    padding: 50px;
+    padding: 40px;
     color: #80848d;
  }
 
