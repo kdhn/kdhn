@@ -34,7 +34,7 @@
     width: calc(100% - 22px);
     box-shadow: -5px -5px 10px var(--rel-light), 5px 5px 10px var(--rel-dark), inset -2px -2px 2px var(--rel-light), inset 2px 2px 2px var(--rel-dark);
     border-radius: 50px;
-    padding: 10px 11px 6px;
+    padding: 10px 11px 9px;
     border: 1px solid #f1f1f1;
     background: linear-gradient(132deg, #00000005, transparent);
 }
