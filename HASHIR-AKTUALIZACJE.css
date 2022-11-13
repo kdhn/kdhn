@@ -31,3 +31,7 @@
 .FAB103 li { padding-left: 10px; } 
 .FAB103 .obramowanie { background: #111111; padding: 10px 20px; font-size: 11px; border: 1px solid #262626; } 
 :root { scroll-padding-top: 90px; }
+
+.tabelka2 { display: flex; background: #121212; padding: 10px; border: 1px solid #181818; } 
+.tabelka2 op { font-size: 11px; line-height: 15px; } 
+.tabelka2 b { min-width: 25%; display: flex; align-items: center; justify-content: center; background: #131313; padding: 10px 0; margin-right: 20px; color: unset; border: 1px solid var(--mm-tre); font: 400 12px poppins; letter-spacing: 1px; text-transform: uppercase; }
