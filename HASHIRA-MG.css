@@ -1,8 +1,8 @@
 .HMG { position: relative;margin: auto; text-align: justify; width: 100%; min-height: 300px; background: #131313; padding: 220px 50px 50px; }
 
-.HMG .FAB104 {background: linear-gradient(223deg,rgb(94 29 19),#30100c);width: 100%;height: 50px;display: flex;align-items: center;padding-left: 50px;font: 300 17px poppins;letter-spacing: 5px;position: relative;text-transform: uppercase;overflow: hidden;}
+.FAB104 {background: linear-gradient(223deg,rgb(94 29 19),#30100c);width: 100%;height: 50px;display: flex;align-items: center;padding-left: 50px;font: 300 17px poppins;letter-spacing: 5px;position: relative;text-transform: uppercase;overflow: hidden;}
 
-.HMG .FAB104::before { content: 'road to hashira'; font-weight: 700; font-size: 50px; position: absolute; top: -12px; mix-blend-mode: soft-light; color: #888; z-index: 0; letter-spacing: -4px; left: -16px; opacity: 0.6; }
+.FAB104::before { content: 'road to hashira'; font-weight: 700; font-size: 50px; position: absolute; top: -12px; mix-blend-mode: soft-light; color: #888; z-index: 0; letter-spacing: -4px; left: -16px; opacity: 0.6; }
 
 .HMG b { font: 700 13px poppins; color: #501c16; text-transform: uppercase; }.HMG .FAB101 {width: 100%;height: 250px;clip-path: ellipse(600px 200px at 48% 0);background: radial-gradient(circle, #131313 40%, #101010);position: absolute;overflow: hidden;z-index: 2;left: 0;top: 0;display: flex;align-items: center;}
 
