@@ -1,4 +1,6 @@
-.HMG { position: relative;margin: auto; text-align: justify; width: 100%; min-height: 300px; background: #131313; padding: 220px 50px 50px; }
+
+
+.HMG { position: relative; margin: auto; text-align: justify; width: 100%; min-height: 300px; background: #131313; padding: 220px 50px 50px; }
 
 .FAB104 {background: linear-gradient(223deg,rgb(94 29 19),#30100c);width: 100%;height: 50px;display: flex;align-items: center;padding-left: 50px;font: 300 17px poppins;letter-spacing: 5px;position: relative;text-transform: uppercase;overflow: hidden;}
 
