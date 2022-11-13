@@ -24,7 +24,7 @@
 .FAB103 pozegnanie {font: 400 13px poppins;text-transform: uppercase;letter-spacing: 3px;position: relative;background: #461813;padding: 3px 10px 3px 3px;border-radius: 20px;display: flex;width: max-content;align-items: center;} 
 .FAB103 pozegnanie::before {content: '\f6a1';font-family: 'Font Awesome 6 Free';font-weight: 900;background: #131313;display: inline-flex;align-items: center;justify-content: center;padding: 7px;padding-right: 4px;border-radius: 50%;margin-right: 10px;font-size: 11px;}
 .FAB103 b {font: 700 20px poppins;color: #461813;}
-.FAB103 span {font: 700 30px poppins;letter-spacing: -1px;}
+.FAB103 > span {font: 700 30px poppins;letter-spacing: -1px;}
 .FAB103 i {font: 500 12px poppins;color: #8b6845;letter-spacing: 0.5px;}
 
 .FAB103 li::marker { color: #461813; content: '\f04b'; font-family: 'Font Awesome 6 Free'; font-weight: 900; font-size: 10px; } 
