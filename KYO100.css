@@ -1,0 +1,15 @@
+.KYO100 { width: 500px; margin: auto; font: 12px poppins; color: #888; display: flex; align-items: flex-end; justify-content: space-between;}
+
+.KYO100 > div { position: relative; width: 160px; height: 160px; border-radius: 50%; outline: 1px solid #461813; animation: idk 2s infinite}
+
+.KYO100 > div::before, .KYO100 > div::after { content: '\f043'; font-family: 'Font Awesome 6 Free'; font-weight: 900; position: absolute; color: #461813; font-size: 20px;bottom: -33px;right: 0}
+
+.KYO100 > div::after { font-size: 40px; right: 20px; bottom: -65px }
+
+.KYO100 > div img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; position: relative; z-index: 2; }
+
+.KYO100 > span { position: relative; z-index: 2; margin-bottom: 25px;margin-right: 20px; }
+
+.KYO100 > span > b { display: block; font-size: 25px; letter-spacing: -2px; margin-bottom: -5px; }
+
+@keyframes idk { 0% {outline-offse: 0; border: 10px solid transparent; } 25% {outline-offset: 15px; border: 10px solid #461813; } 50% {} 100% {outline-offset: 0; border: 10px solid transparent;} }
