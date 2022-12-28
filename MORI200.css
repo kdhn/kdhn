@@ -1,0 +1,35 @@
+.MORI200 { margin: auto; width: 550px; height: 200px; background-image: url(https://i.imgur.com/iZje3Yl.gif); background-size: cover; position: relative;outline: 1px solid #464646;color: #cfcfcf;}
+
+.MORI200::before { content: ''; height: 100%; width: 100%; background: linear-gradient(90deg, #121212, transparent); position: absolute; top: 0; left: 0; z-index: 1;opacity:0;transition: .3s ease-in-out}
+
+.MORI200 div::after { content: ''; border-radius: 50%; width: 600px; aspect-ratio: 1; background: #161616; position: absolute; top: 700px; left:-400px; transform: scale(0); transition: 2s ease-in-out; z-index:2; }
+
+.MORI200 div::before { content: ''; border-radius: 50%; width: 600px; aspect-ratio: 1; background: #2e181c; position: absolute; top: -700px; left:-400px; transform: scale(0); transition: 2s ease-in-out;z-index: 2; opacity:0;}
+
+.MORI200:hover div::after {left: -300px; top:-100px; transform: scale(1);transition: 1.3s ease-in-out;}
+
+.MORI200:hover div::before {left: -200px; top:-470px; transform: scale(1);transition: 1.3s ease-in-out;opacity:1;}
+
+.MORI200:hover::before { opacity: 1; transition: .3s ease-in-out }
+
+.MORI200 > span {position: absolute;right: 40px;bottom: -13px;font: 200 16px poppins;letter-spacing: 3px;outline: 1px solid #464646;padding: 0 10px;backdrop-filter: blur(20px);z-index: 4;}
+
+.MORI200 div { width: 100%; height: 100%; position: relative; overflow: hidden; }
+
+.MORI200 div b { font: 200 13px poppins; z-index: 3; position: absolute; top: 5px; left: -300px; transition: .3s ease-in-out;margin-top:8px;z-index: 3;}
+
+.MORI200:hover div b { left: 25px }
+
+.MORI200 div b:nth-of-type(2) { top: 30px; left: auto; right: -350px; transition: .6s ease-in-out; }
+.MORI200 div b:nth-of-type(3n) { top: 55px; left: -350px; transition: .5s ease-in-out; }
+.MORI200 div b:nth-of-type(4) { top: 80px; left: auto; right: -400px; transition: .7s ease-in-out; }
+.MORI200 div b:nth-of-type(5) { top: 105px; left: -290px;transition: .4s ease-in-out; }
+.MORI200 div b:nth-of-type(6) { top: 130px; left: auto; right: -350px; transition: .3s ease-in-out; }
+.MORI200 div b:nth-of-type(7) { top: 155px; left: -450px; transition: .8s ease-in-out;}
+
+.MORI200:hover div b:nth-of-type(2) { top: 30px; left: auto; right: 250px }
+.MORI200:hover div b:nth-of-type(3n) { top: 55px; left: 25px; }
+.MORI200:hover div b:nth-of-type(4) { top: 80px; left: auto; right: 250px }
+.MORI200:hover div b:nth-of-type(5) { top: 105px; left: 25px; }
+.MORI200:hover div b:nth-of-type(6) { top: 130px; left: auto; right: 220px }
+.MORI200:hover div b:nth-of-type(7) { top: 155px; left: 25px; }
