@@ -1,0 +1,244 @@
+.REL000 br {
+    display: none;
+}
+
+.REL000 .REL103 span br {
+    display: block;
+}
+
+.REL000 {
+    max-width: 430px;
+    background: var(--relBACK);
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    color: var(--relBLACK);
+    min-height: 400px;
+}
+
+.REL000::before {
+    content: '';
+    position: absolute;
+    right: 29px;
+    bottom: 50px;
+    background-image: url(https://i.imgur.com/N6aezUd.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.REL000 > span {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font: 700 60px 'Noto Sans JP';
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.REL000 > div {
+    height: 100px;
+    overflow: hidden;
+    min-width: 200px;
+    max-width: 270px;
+    transition: height .5s ease-in-out;
+    z-index: 2;
+    position: relative;
+}
+
+.REL000 > div:last-of-type {
+    border-bottom: 1px solid var(--relBLACK);
+}
+
+.REL000 > div:hover {
+    height: 520px;
+    transition: height .5s ease-in-out;
+}
+
+.REL100 {
+    max-width: 270px;
+    min-width: 180px;
+    max-height: 500px;
+    background: var(--relBACK);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    display: grid;
+    grid-template-areas:
+        "jeden dwa"
+        "trzy trzy"
+        "cztery pięć"
+        "sześć sześć"
+        "siedem siedem"
+        "osiem osiem";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1.18fr .5fr 2fr .4fr .4fr .7fr;
+}
+
+a.REL101 {
+    font: 700 40px 'Montserrat';
+    grid-area: jeden;
+    word-break: break-all;
+    text-decoration: none;
+    font-style: normal;
+    color: unset;
+    border-right: 1px solid var(--relBLACK);
+    padding: 0 5px 0 0;
+    border-top: 1px solid var(--relBLACK);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+a.REL101 span {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.REL102 {
+    grid-area: dwa;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-top: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 10px;
+    padding: 5px 0 5px 5px;
+    border-top: 1px solid var(--relBLACK);
+    text-align: left;
+    line-height: 12px;
+}
+
+.REL102 b {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 25px;
+    word-break: break-all;
+    text-align: right;
+    width: 100%;
+}
+.REL103 {
+    grid-area: trzy;
+    border-top: 1px solid var(--relBLACK);
+    border-bottom: 1px solid var(--relBLACK);
+    padding: 5px 0 5px 0;
+}
+
+.REL103 > span {
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    display: block; 
+    overflow: auto;
+    width: 100%;
+    height: 45px;
+    padding-right: 5px;
+}
+
+.REL103 > span::-webkit-scrollbar-button,.REL103 > span::-webkit-scrollbar-track-piece,.REL103 > span::-webkit-scrollbar-corner,.REL103 > span::-webkit-resizer { display:none }
+.REL103 > span::-webkit-scrollbar { background: transparent; width:1px }
+.REL103 > span::-webkit-scrollbar-thumb { background:var(--relBLACK); }
+
+.REL104 {
+    grid-area: cztery;
+    border-right: 1px solid var(--relBLACK);
+    aspect-ratio: 1 / 1;
+    padding: 5px 5px 5px 0;
+}
+
+.REL104 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    aspect-ratio: 1 / 1;
+    vertical-align: middle;
+}
+
+.REL105 {
+    grid-area: pięć;
+    padding: 5px 0 5px 5px;
+}
+
+.REL106 {
+    grid-area: sześć;
+    border-top: 1px solid var(--relBLACK);
+    border-bottom: 1px solid var(--relBLACK);
+    line-height: 12px;
+}
+
+.REL106.two {
+    grid-area: siedem;
+    border-bottom: 1px solid var(--relBLACK);
+    border-top: none;
+}
+
+.REL107 {
+    grid-area: osiem;
+    max-height: 60px;
+    font-family: 'Libre Barcode 128', cursive;
+    font-size: clamp(5.5em, 30vw, 6.65em);
+    letter-spacing: .66px;
+    padding: 5px 0 5px 0;
+    line-height: 86px;
+}
+
+.REL100 .REL106 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 5px 0 5px 0;
+}
+
+.REL100 .REL106 b {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.REL100 .REL106 > div {
+    width: 65%;
+    height: 14px;
+    border: 1px solid var(--relBLACK);
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.REL100 .REL106 hr {
+    border: none;
+    background: var(--relBLACK);
+    height: 10px;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.REL100 .REL106 span {
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+a.credits {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--relBLACK);
+    font: 500 8px montserrat;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+a.credits::before {
+    content: '\f8ce';
+    font-family: 'Material Icons';
+    font-size: 50px;
+    position: absolute;
+    right: -11px;
+    top: -41px;
+    rotate: 90deg;
+}
