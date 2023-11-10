@@ -1,6 +1,6 @@
-.WSZYSTKIEPOSTY .post :is(.stat, .odznaki, .postprofile, .post-bottom), .WSZYSTKIEPOSTY .post .post-head > *:not(.head-bottom), .WSZYSTKIEPOSTY .post .head-bottom > * {display: none;}
-.WSZYSTKIEPOSTY .post .postbody {background: transparent;outline: none;margin-right: 0;padding: 0;}
-.WSZYSTKIEPOSTY .post .UMIERAMKURWA:hover .postprofile-avatar, .WSZYSTKIEPOSTY .post .UMIERAMKURWA:hover .postprofile-avatar img {height: 420px!important;}
-.WSZYSTKIEPOSTY .post .post-info {z-index: 10;justify-content: space-between;}
-.WSZYSTKIEPOSTY .post :is(.post-head, .head-bottom) {height: 0;background: transparent;outline: none;}
-.WSZYSTKIEPOSTY .post {margin-top: -70px;}
+.WSZYSTKIEPOSTY .post:first-of-type :is(.stat, .odznaki, .postprofile, .post-bottom), .WSZYSTKIEPOSTY .post .post-head > *:not(.head-bottom), .WSZYSTKIEPOSTY .post .head-bottom > * {display: none;}
+.WSZYSTKIEPOSTY .post:first-of-type .postbody {background: transparent;outline: none;margin-right: 0;padding: 0;}
+.WSZYSTKIEPOSTY .post:first-of-type .UMIERAMKURWA:hover .postprofile-avatar, .WSZYSTKIEPOSTY .post .UMIERAMKURWA:hover .postprofile-avatar img {height: 420px!important;}
+.WSZYSTKIEPOSTY .post:first-of-type .post-info {z-index: 10;justify-content: space-between;}
+.WSZYSTKIEPOSTY .post:first-of-type :is(.post-head, .head-bottom) {height: 0;background: transparent;outline: none;}
+.WSZYSTKIEPOSTY .post:first-of-type {margin-top: -70px;}
