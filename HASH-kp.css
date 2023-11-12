@@ -1,0 +1,4 @@
+.WSZYSTKIEPOSTY > .post:first-of-type .post-bottom, .WSZYSTKIEPOSTY > .post:first-of-type .post-head, .WSZYSTKIEPOSTY > .post:first-of-type .odznaki, .WSZYSTKIEPOSTY > .post:first-of-type .postprofile { display: none; } 
+.WSZYSTKIEPOSTY > .post:first-of-type .postbody {padding: 0;background: transparent;outline: none;margin-right: 0px;} 
+.WSZYSTKIEPOSTY > .post:first-of-type .post-info {justify-content: flex-end;}
+.WSZYSTKIEPOSTY > .post:first-of-type {margin-bottom: 70px;}
